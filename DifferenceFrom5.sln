@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceFrom5", "DifferenceFrom5\DifferenceFrom5.csproj", "{085099EF-0F54-45E1-A821-E9D461E2A99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceFrom5.Tests", "DifferenceFrom5.Tests\DifferenceFrom5.Tests.csproj", "{FF057A9C-1F92-456D-ACA1-700E7D554BCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{085099EF-0F54-45E1-A821-E9D461E2A99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085099EF-0F54-45E1-A821-E9D461E2A99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085099EF-0F54-45E1-A821-E9D461E2A99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085099EF-0F54-45E1-A821-E9D461E2A99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF057A9C-1F92-456D-ACA1-700E7D554BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF057A9C-1F92-456D-ACA1-700E7D554BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF057A9C-1F92-456D-ACA1-700E7D554BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF057A9C-1F92-456D-ACA1-700E7D554BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFE1F2B4-1ABD-4948-9F70-DFB6B78C0C14}
+	EndGlobalSection
+EndGlobal
