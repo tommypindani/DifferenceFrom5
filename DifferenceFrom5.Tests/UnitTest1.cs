@@ -6,32 +6,25 @@ namespace DifferenceFrom5.Tests
     public class DifferenceFrom5
     {
         [TestMethod]
-        public void IfInputIsPooReturn0()
+        public void DifferenceFrom5_1_Return_4()
         {
             var differenceFrom5 = NumberUtility.CalculateDifferenceFrom5(1);
             Assert.AreEqual(4, differenceFrom5);
         }
 
         [TestMethod]
-        public void IfInputIs4Return1()
+        public void DifferenceFrom5_4_Return_1() 
         {
             var differenceFrom5 = NumberUtility.CalculateDifferenceFrom5(4);
             Assert.AreEqual(1, differenceFrom5);
         }
-        [TestMethod]
-        public void DifferenceFrom5_IsValidNumber()
-        {
-            var differenceFrom5 = 0 < 5;
-            Assert.IsTrue(0 < 5);
-        }
-
 
         [TestMethod]
         public void DifferenceFrom5_IsInvalidNumber()
         {
-            var differenceFrom5 = false;
+            Assert.ThrowExpection<ArgumentExpection>(() => (NumberUtility.CalculateDifferenceFrom5("ArgumentExpection input"));
+        }
 
-            Assert.ThrowsException<System.ApplicationException>( DifferenceFrom5_IsInvalidNumber);
         }
     }
-}
+
